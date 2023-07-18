@@ -13,9 +13,11 @@ body {
 }
 
 h1 {
-    margin-top: 0;
+    padding: 8px;
     font-size: 2rem;
     text-align: center;
+    background-color: rgb(180,70,128);
+    color: #FFF;
 }
 
 p {
@@ -36,10 +38,10 @@ p {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #ff5100;
+    background-color: #fff;
     text-align: center;   /* alinha os números */
     line-height: 60px;    /* centraliza os números */
-    color: #fff;
+    color: rgb(29, 27, 27);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -50,7 +52,7 @@ button{
     padding: 0.8rem 1.2rem;
     font-size: 1.1rem;
     color: #fff;
-    background-color: #ff5100;
+    background-color: rgb(180,70,128);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -58,6 +60,6 @@ button{
 }
 
 button:hover{
-    background-color: #e4510d;
+    background-color: rgb(179, 26, 107);
     color: rgb(10, 235, 10);
 }
